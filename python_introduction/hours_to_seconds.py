@@ -1,4 +1,4 @@
 hours = 2
-seconds = 3600
+seconds = hours *  3600
 totalSeconds = hours * seconds
-print (" 2 hour(s) is", totalSeconds, "seconds.")
+print (f"{hours} hours(s) is {seconds} seconds. ")
