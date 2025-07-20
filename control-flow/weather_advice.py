@@ -1,6 +1,6 @@
 weather = "sunny", "rainy", "cold"
 weather_advice = str(input("What's the weather like today? (sunny/rainy/cold): "))
-if weather_advice == "sunny":
+if weather_advice = "sunny":
     print("Wear a t-shirt and sunglasses.")
 elif weather_advice == "rainy":
     print("Don't forget your umbrella and a raincoat.")
