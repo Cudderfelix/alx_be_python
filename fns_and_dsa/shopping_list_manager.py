@@ -10,9 +10,10 @@ def main():
     while True:
         display_menu()
         choice = input("Enter your choice: ").strip()
-        if choice.isdigit():
+
+        if choice.isdigit() and choice in ['1', '2', '3', '4']:
             if choice == '1':
-                item = input("Enter the item to add:").strip()
+                item = input("Enter item to add: ").strip()
                 if item:
                     shopping_list.append(item)
                     print(f"{item} has been added to the shopping list.")
