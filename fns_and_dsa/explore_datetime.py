@@ -34,7 +34,7 @@ def main():
     
     # Prompt for number of days and validate input
     try:
-        days = input("Enter the number of days to add: ").strip()
+        days = input("Enter the number of days to add to the current date: ").strip()
         days = int(days)
         if days < 0:
             print("Please enter a non-negative number of days.")
