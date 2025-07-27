@@ -10,12 +10,12 @@ def main():
     while True:
         display_menu()
         choice = input("Enter your choice: ").strip()
-
-        if choice == 1:
-            item = input ("Enter item to add: ").strip()
+        if choice.isdigit() and choice in ['1, 2', '3', '4']:
+            if choice == '1':
+             item = input ("Enter item to add: ").strip()
             if item:
-                shopping_list.append(item)
-                print(f"{item} has been added to the shopping list.")
+                     shopping_list.append(item)
+                     print(f"{item} has been added to the shopping list.")
             else:
                 print("Item name cannot be empty. Please try again.")
         elif choice == 2:
