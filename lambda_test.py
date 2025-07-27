@@ -19,7 +19,6 @@ def outer_function():
         inner_function() # Calling the nested function
         print("Modified value of x from inner function:", x)
 outer_function()
-print(outer_function)
 
 
 def greet():
