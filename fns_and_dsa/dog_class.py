@@ -28,17 +28,17 @@ class Lion(Animal):
     def speak(self):
         return f"{self.name} roars!"
     def color(self):
-        return f"{self.name} is green in color."
+        return f"{self.name} is brown in color."
 class Dog(Animal):
     def speak(self):
         return f"{self.name} barks!"
     def color(self):
-        return f"{self.name} is red in color."
+        return f"{self.name} is white in color."
 class Elephant(Animal):
     def speak(self):
         return f"{self.name} trumpets!"
     def color(self):
-        return f"{self.name} is blue in color." 
+        return f"{self.name} is grey in color." 
 class Tiger(Animal):
     def speak(self):
         return f"{self.name} growls!"
@@ -48,7 +48,7 @@ class Tiger(Animal):
 print(f"{Lion('Simba').speak()}")
 print(f"{Dog('Chiwendu').speak()}")
 print(f"{Elephant("Dumbo").speak()}")
-print(f"{Tiger('Sher Khan')}")
+print(f"{Tiger('Sher Khan').speak()}")
 
 # Polymorphism Example
 zoo_animals = [
