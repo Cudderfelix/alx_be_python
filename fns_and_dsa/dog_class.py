@@ -22,18 +22,33 @@ class Animal:
         self.name = name
     def speak(self):
         pass
+    def color(self):
+        pass
 class Lion(Animal):
     def speak(self):
         return f"{self.name} roars!"
+    def color(self):
+        return f"{self.name} is green in color."
 class Dog(Animal):
     def speak(self):
-        return f"{self.name} barks!"   
+        return f"{self.name} barks!"
+    def color(self):
+        return f"{self.name} is red in color."
 class Elephant(Animal):
     def speak(self):
-        return f"{self.name} trumpets!"     
+        return f"{self.name} trumpets!"
+    def color(self):
+        return f"{self.name} is blue in color."     
 
 print(f"{Lion('Simba').speak()}")
 print(f"{Dog('Chiwendu').speak()}")
 print(f"{Elephant("Dumbo").speak()}")
 
 # Polymorphism Example
+zoo_animals = [
+    Lion("Simba"),
+    Elephant("Dumbo"),
+    Dog("Chinwendu")
+]
+for animal in zoo_animals:
+    print(animal.speak(), animal.color())
