@@ -1,5 +1,5 @@
 import unittest
-from simple_calculator import SimpleCalculator
+from simple_calculator.py import SimpleCalculator
 
 class TestSimpleCalculator(unittest.TestCase):
     """Test cases for the SimpleCalculator class."""
