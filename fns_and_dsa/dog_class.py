@@ -57,5 +57,5 @@ zoo_animals = [
     Dog("Chinwendu"),
     Tiger("Sher Khan")
 ]
-#for animal in zoo_animals:
-#    print(animal.speak(), animal.color())
+for animal in zoo_animals:
+   print(animal.speak(), animal.color())
