@@ -1,5 +1,16 @@
 first = input("Enter first number: ")
 second = input("Enter second number: ")
 
-total_sum = int(first) + int(second)
-print("The sum of the two numbers is: ", "First:", first, "Second:", second)
+total_sum = float(first) + float(second)
+print("The sum of the two numbers is: ", total_sum, "'\n'First:", first, "'\n'Second:", second)
+
+
+temperature = float(input("Enter temperature in Celsisus:"))
+# This helps evaluate the current temperature and gives an advisory answer.
+if temperature > 45:
+    print("Current temperature is hot, please make sure to stay hydrated at all times.")
+elif temperature < 30 and temperature > 10:
+    print("Current temperature is moderate, you can wear loose clothes if suitable.")
+else: 
+    print("Current temperature is super cold, please wear enough clothes to mitigate against the cold weather.")
+print("Thank you for using the fahreneit calc to check temp")
