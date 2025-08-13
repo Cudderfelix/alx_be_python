@@ -1,4 +1,4 @@
-first = input("Enter first number: ")
+frst = input("Enter first number: ")
 second = input("Enter second number: ")
 
 total_sum = float(first) + float(second)
