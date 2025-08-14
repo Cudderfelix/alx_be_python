@@ -4,7 +4,7 @@ second = input("Enter second number: ")
 total_sum = float(first) + float(second)
 print("The sum of the two numbers is: ", total_sum, "'\n'First:", first, "'\n'Second:", second)
 
-
+#mosh boys, mana
 temperature = float(input("Enter temperature in Celsisus:"))
 # This helps evaluate the current temperature and gives an advisory answer.
 if temperature > 45:
