@@ -1,5 +1,5 @@
-first_name = input("Enter first number: ")
-second_name = input("Enter second number: ")
+name = input("Enter first number: ")
+name = input("Enter second number: ")
 
 total_sum = float(first) + float(second)
 print("The sum of the two numbers is: ", total_sum, "'\n'First:", first, "'\n'Second:", second)
