@@ -1,4 +1,4 @@
-def perform_operation(num1, num2, operation):
+ef perform_operation(num1, num2, operation):
     """
     performs basic arithmetic operations based on the operation parameter.
     
