@@ -1,4 +1,4 @@
-ame = input("Enter first number: ")
+name = input("Enter first number: ")
 name = input("Enter second number: ")
 
 total_sum = float(first) + float(second)
