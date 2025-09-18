@@ -1,4 +1,4 @@
-lass Dog:
+class Dog:
     def __init__(self, name, fur_length, height):
         self.name = name
         self.fur_length = fur_length
